@@ -18,11 +18,13 @@ class Dog {
 class Bird {
   constructor(name, gender) {
     this.name = name;
-    this.gender = gender
+    this.gender = gender;
   }
   speak: () => {
     if (this.gender === "male") {
-      return 
+      return `It's me! ${this.name}, the parrot!`;
+    } else {
+      return `${this.name} says squawk!`;
     }
-  }`${name} says squawk!`;
+  }
 }
