@@ -8,11 +8,21 @@ class Cat {
 }
 
 class Dog {
-  speak: (name) => `${name} says woof!`;
+  constructor(name, gender) {
+    this.name = name;
+    this.gender = gender
+  }
+  speak: () => `${this.name} says woof!`;
 }
 
 class Bird {
-  speak: (name) => {
-    if (this.)
+  constructor(name, gender) {
+    this.name = name;
+    this.gender = gender
+  }
+  speak: () => {
+    if (this.gender === "male") {
+      return 
+    }
   }`${name} says squawk!`;
 }
