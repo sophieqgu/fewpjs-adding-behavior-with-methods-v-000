@@ -8,5 +8,7 @@ class Dog {
 }
 
 class Bird {
-  speak: (name) => `${name} says squawk!`;
+  speak: (name) => {
+    if (this.)
+  }`${name} says squawk!`;
 }
