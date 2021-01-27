@@ -1,6 +1,10 @@
 // Your code here
 class Cat {
-  speak: (name) => `${name} says meow!`;
+  constructor(name, gender) {
+    this.name = name;
+    this.gender = gender
+  }
+  speak: () => `${this.name} says meow!`;
 }
 
 class Dog {
